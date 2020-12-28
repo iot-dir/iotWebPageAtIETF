@@ -1,0 +1,25 @@
+The Internet of Things
+
+The Internet of Things is the network of physical objects or "things" embedded with electronics, software, sensors, actuators, and connectivity to enable objects to exchange data with the manufacturer, operator and/or other connected devices.
+
+The Internet of Things (IoT) refers to devices that are often constrained in communication and computation capabilities, now becoming more commonly connected to the Internet or at least to an IP network, and to various services that are built on top of the capabilities these devices jointly provide. It is expected that this development will usher in more machine-to-machine communication using the Internet with no human user actively involved.
+
+IoT is a very rapidly growing area of technology and connects with a number of other emerging technologies. Several IETF working groups, spanning multiple Areas are developing protocols that are directly relevant to the IoT on the communication and security aspects. These protocols are used by a variety of companies, as well as IoT standards organizations and alliances, to build and specify interoperable systems. Due to the distributed nature of IoT protocol development and use, there is often need for coordination across different groups working on IoT. 
+
+The IETF IoT Directorate is an advisory group of experts selected by the IETF Area directors and the IoT Directorate Chairs. The main purpose of the IoT Directorate is coordination within IETF on IoT-related work and increasing the visibility of IETF IoT standards visibility to other standards development organizations (SDOs), industry alliances, and other organizations. A post from the IETF Blog provides  an overview of IoT-related work underway within the IETF.
+
+IETF Working Groups (WG) working on IoT-related topics include:
+
+IPv6 over Networks of Resource-constrained Nodes (6lo)
+IPv6 over the TSCH mode of IEEE 802.15.4e (6tisch)
+Concise Binary Object Representation Maintenance and Extensions (cbor)
+Constrained RESTful Environments (core)
+CBOR Object Signing and Encryption (cose)
+Deterministic Networking (detnet)
+Delay/Disruption Tolerant Networking (dtn)
+IP Wireless Access in Vehicular Environments (ipwave)
+Lightweight Authenticated Key Exchange (lake)
+IPv6 over Low Power Wide-Area Networks (lpwan)
+Light-Weight Implementation Guidance (lwig)
+Routing Over Low power and Lossy networks (roll)
+Software Updates for Internet of Things (suit)
