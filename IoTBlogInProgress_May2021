@@ -1,0 +1,96 @@
+TITLE
+The Internet of Things at the IETF
+
+INTRODUCTION
+The Internet of Things (IoT) is the network of physical objects or "things" embedded with electronics, software, sensors, actuators, and connectivity to enable objects to exchange data with the manufacturer, operator and/or other connected devices.
+
+BODY
+The Internet of Things refers to a system with devices that are often constrained in communication and computation capabilities, now becoming more commonly connected to the Internet (or at least to an IP network), and to various services that are built on top of the capabilities these devices jointly provide. It is expected that this development will usher in more machine-to-machine communication using the Internet with no human user actively involved.
+
+IoT is a very rapidly growing area of technology and connects with a number of other emerging technologies. Several IETF working groups, spanning multiple areas are developing protocols and best common practices that are directly relevant to the IoT on the communication and security aspects. These protocols are used by a variety of companies, as well as other IoT standards development organizations (SDOs) and alliances, to build and specify interoperable systems. Due to the distributed nature of IoT protocol development and use, there is often a need for coordination across different groups working on IoT. 
+
+The IETF IoT Directorate is an advisory group of experts selected by the IETF Internet area directors and the IoT Directorate Chairs. The main purpose of the IoT Directorate is coordination within IETF on IoT-related work and increasing the visibility and communication  between IETF IoT activities and other standards development organizations, industry alliances, and other organizations. A post from the IETF Blog provides an overview of IoT-related work underway within the IETF.
+
+IETF Working Groups (WG) working on IoT-related topics i involve different areas as shown below:
+
+Application Area:
+
+CBOR: Concise Binary Object Representation Maintenance and Extensions:
+Concise Binary Object Representation (CBOR, RFC 7049) extends the JavaScript Object Notation (JSON, RFC 8259) data interchange format to include binary data and an extensibility model, using a binary representation format that is easy to parse correctly.
+https://datatracker.ietf.org/wg/cbor/about/
+CoRE: Constrained RESTful Environments 
+The CoRE working group provides a framework for resource-oriented applications intended to run on constrained IP networks.
+https://datatracker.ietf.org/wg/core/about/
+ASDF: A Semantic Definition Format for Data and Interactions of Things
+The objective of the ASDF working group is to develop the Semantic Definition Format into a standards-track specification for thing interaction and data modelling. In the process of developing this specification, further functional requirements that emerge in the usage of SDF for model harmonization will be addressed
+https://datatracker.ietf.org/wg/asdf/about/
+
+Internet Area
+
+6lo: IPv6 over Networks of Resource-constrained Nodes:
+The 6lo working group focuses on the work that facilitates IPv6 connectivity over constrained node networks 
+https://datatracker.ietf.org/wg/6lo/about/
+6tisch: IPv6 over the TSCH mode of IEEE 802.15.4e
+The 6tisch working group focuses on enabling IPv6 over the TSCH mode of the IEEE802.15.4 standard
+https://datatracker.ietf.org/wg/6tisch/about/
+LPWAN: IPv6 over Low Power Wide-Area Networks
+The LPWAN Working Group focuses on enabling IPv6 connectivity over a selection of Low-Power Wide-Area technologies requiring extra compression and signaling: SIGFOX, LoRa, WI-SUN and NB-IOT. These technologies will be used as the baseline technologies for future work.
+https://datatracker.ietf.org/wg/lpwan/about/
+LWIG: Light-Weight Implementation Guidance
+The purpose of the LWIG working group is to collect experiences from implementors of IP stacks in constrained devices
+https://datatracker.ietf.org/wg/lwig/about/
+Ipwave: IP Wireless Access in Vehicular Environments
+The Ipwave working group works on Vehicle-to-Vehicle Communications (V2V) and Vehicle-to-Infrastructure (V2I) use-cases where IP is well-suited as a networking  technology and will develop an IPv6 based solution to establish direct and secure connectivity between a vehicle and other vehicles or stationary system
+https://datatracker.ietf.org/wg/ipwave/about/
+
+Security Area
+COSE: CBOR Object Signing and Encryption
+CBOR Object Signing and Encryption (COSE, RFC 8152) describes how to create and process signatures, message authentication codes, and encryption using Concise Binary Object Representation (CBOR, RFC 7049) for serialization. COSE additionally describes a representation for cryptographic keys.
+https://datatracker.ietf.org/wg/cose/about/
+
+RATS: Remote ATtestation Procedures
+Remote attestation procedures (RATS) enable relying parties to establish a level of confidence in the trustworthiness of remote system components through the creation of attestation evidence by remote system components and a processing chain towards the relying party.
+https://datatracker.ietf.org/wg/rats/about/
+ACE: Authentication and Authorization for Constrained Environments
+The ACE working group aims to produce a standardized solution for authentication and authorization to enable authorized access to resources identified by a URI and hosted on a resource server in constrained environments
+https://datatracker.ietf.org/wg/ace/about/
+SUIT: Software Updates for Internet of Things
+The SUIT working group focuses on defining a firmware update solution (taking into account past learnings from RFC 4108 and other firmware update solutions) that will be usable on Class 1 (as defined in RFC 7228) devices, i.e., devices with ~10 KiB RAM and ~100 KiB flash. The solution may apply to more capable devices as well
+https://datatracker.ietf.org/wg/suit/about/
+TEEP: Trusted Execution Environment Provisioning 
+The TEEP working group aims to develop a protocol providing Trusted Execution Environment (TEE) with lifecycle management and security domain management for trusted applications.
+https://datatracker.ietf.org/wg/teep/about/
+LAKE: Lightweight Authenticated Key Exchange
+The LAKE working group specifies a novel key exchange protocol tailored for constrained environments through compact messages and a low footprint. The LAKE protocol is intended for usage with the OSCORE security protocol, standardized as RFC 8613.  
+https://datatracker.ietf.org/wg/lake/about/
+
+Transport Area
+
+DTN: Delay/Disruption Tolerant Networking
+The DTNWG specifies mechanisms for data communications in the presence of long delays and/or intermittent connectivity. Delay-Tolerant Networking (DTN) protocols have been the subject of extensive research and development in the Delay-Tolerant Networking Research Group (DTNRG) of the Internet Research Task Force since 2002
+https://datatracker.ietf.org/wg/dtn/about/
+
+Routing Area
+
+Detnet: Deterministic Networking 
+The Detnet working group focuses on deterministic data paths that operate over Layer 2 bridged and Layer 3 routed segments, where such paths can provide bounds on latency, loss, and packet delay variation (jitter), and high reliability. The Working Group addresses Layer 3 aspects in support of applications requiring deterministic networking
+https://datatracker.ietf.org/wg/detnet/about/
+RAW: Reliable and Available Wireless 
+The  RAW working group provides for high reliability and availability for IP connectivity over a wireless medium. The wireless medium presents significant challenges to achieve deterministic properties such as low packet error rate, bounded consecutive losses, and bounded latency. RAW extends the DetNet Working Group concepts to provide for high reliability and availability for an IP network utilizing scheduled wireless segments
+https://datatracker.ietf.org/wg/raw/about/
+ROLL: Routing Over Low power and Lossy networks
+The ROLL working group has focused on routing solutions for the areas: connected home, building, and urban sensor networks. 
+https://datatracker.ietf.org/wg/roll/about
+Operations and Management Area
+IoTOps: IoT Operations (Proposed WG)
+The proposed IOTOPS Working Group is for the discussion of operational issues related to Internet of Things (IoT) devices, in particular related to device onboarding and lifecycle management.
+https://datatracker.ietf.org/wg/iotops/about/
+
+Related Internet Research Task Force (IRTF) Research Groups
+
+T2TRG: Thing-to-Thing
+The Thing-to-Thing Research Group (T2TRG) investigates open research issues in turning a true "Internet of Things" into reality, an Internet where low-resource nodes ("things", "constrained nodes") can communicate among themselves and with the wider Internet, in order to partake in permissionless innovation.
+https://datatracker.ietf.org/rg/t2trg/about/
+COIN: Computing in the Network Research Group
+The COIN research group (COINRG) explores existing research and foster investigation of “Compute In the Network” and resultant impacts to the data plane. The goal is to investigate how to harness and to benefit from this emerging disruption to the Internet architecture to improve network and application performance as well as user experience. COIN will encourage scrutiny of research solutions that comprehend the re-imagining of the network to be a place where routing, compute, and storage blend.
+https://datatracker.ietf.org/rg/coinrg/about/
